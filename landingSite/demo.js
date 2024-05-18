@@ -1,3 +1,4 @@
+// This is an example of a comment!
 console.log("Hello, World!")
 console.log("I am logging more information to the screen from JS")
 

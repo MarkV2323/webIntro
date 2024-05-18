@@ -1,5 +1,3 @@
-console.log("Hello World!");
-
 function getComputerChoice () {
     // return a number, [0-2]
     return Math.floor(Math.random() * 3);
