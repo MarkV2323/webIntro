@@ -8,5 +8,20 @@ function getTimeString () {
     return timeString;
 }
 
-const timeS = getTimeString();
-console.log(timeS);
+// Update rt-clock time
+function updateTime () {
+    const timeS = getTimeString();
+    document.getElementById("rt-clock").innerHTML = timeS;
+}
+
+// Update rt-clock time
+function updateTimeTwo () {
+    const timeS = getTimeString();
+    document.getElementById("rt-clock-two").innerHTML = timeS;
+}
+
+// In order to update an HTML element, the script
+// must be run either after it loads (check HTML)
+// or specificed via an window.onload (not done here)
+updateTime();
+updateTimeTwo();
