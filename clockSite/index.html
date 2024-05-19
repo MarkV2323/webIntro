@@ -3,13 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <title>Clock Site!</title>
-        <script src="clock.js"></script>
         <link rel="stylesheet" href="clock.css">
     </head>
     
     <body>
         <h2 class="rt-header">CURRENT TIME</h2>
         <h2 id="rt-clock">0:00</h2>
-        <button type="button" class="rt-button">Update</button>
+        <!-- Button onClick event linked to updateTime JS func !-->
+        <button type="button" onclick="updateTime()"
+            class="rt-button">Update</button>
+        <h2 id="rt-clock-two">0:00</h2>
+        <script src="clock.js"></script>
     </body>
 </html>
