@@ -25,3 +25,9 @@ function updateTimeTwo () {
 // or specificed via an window.onload (not done here)
 updateTime();
 updateTimeTwo();
+
+// Using the JS Timing API I can set an interval for this
+// function to run at, async (sort of). A better version
+// would be to use a "Web Worker" though that may be
+// a tad overkill for a clock.
+window.setInterval(updateTimeTwo, 1000);
